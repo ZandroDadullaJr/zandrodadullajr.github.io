@@ -9,14 +9,14 @@ image:
 ---
 
 ## Introduction
----
+
 
 Room: [Anonymous](https://tryhackme.com/r/room/anonymous)
 
 Author: [Nameless0ne](https://tryhackme.com/r/p/Nameless0ne)
 
 ## System
----
+
 
 ```bash
 10.10.166.189
@@ -29,7 +29,7 @@ namelessone
 
 ## Initial Access
 
----
+
 
 ### Enumeration
 
@@ -145,7 +145,7 @@ Now let’s locate the user flag.
 
 ## Privilege Escalation
 
----
+
 
 ### Enumeration
 
