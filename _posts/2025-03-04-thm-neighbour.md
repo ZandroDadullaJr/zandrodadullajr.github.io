@@ -4,7 +4,7 @@ title: "Neighbour"
 date: 2025-03-04 00:00:00 +0800
 categories: [Writeups, TryHackMe]
 tags: [tryhackme,thm,neighbour,idor,ctf,easy]
-pin: true
+#pin: true
 #math: true
 #mermaid: true
 image:
