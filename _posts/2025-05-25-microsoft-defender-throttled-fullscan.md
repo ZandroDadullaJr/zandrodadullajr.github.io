@@ -5,7 +5,6 @@ date: 2025-05-25 00:00:00 +0800
 last_modified_at: 2025-05-25 00:00:00 +0800
 categories: [Miscellaneous]
 tags: [Microsoft,Defender]
-pin: true
 image:
   path: "/assets/img/2025-05-24-microsoft-defender-fullscan-experiment/blog-image.png"
 ---
