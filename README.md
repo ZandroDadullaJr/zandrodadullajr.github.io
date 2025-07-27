@@ -6,6 +6,14 @@ Welcome to **Tech With Z** — a personal knowledge base and learning hub focuse
 
 ## 📚 What You'll Find
 
+### 💻 Pentest Playbook
+Red team-focused notes and walkthroughs:
+- Recon & Enumeration
+- Exploitation Techniques
+- Web Application Attacks
+- Active Directory Pentesting
+- Post-Exploitation Tips
+
 ### 🛡️ Defense Playbook
 A growing collection of blue team content:
 - SOC Fundamentals
@@ -15,14 +23,6 @@ A growing collection of blue team content:
 - Registry & Memory Forensics
 - Threat Hunting Techniques
 - PowerShell for Blue Teamers
-
-### 💻 Pentest Playbook
-Red team-focused notes and walkthroughs:
-- Recon & Enumeration
-- Exploitation Techniques
-- Web Application Attacks
-- Active Directory Pentesting
-- Post-Exploitation Tips
 
 ### 🌐 Web Exploitation Playbook
 Focused solely on web application security:
@@ -53,6 +53,9 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🔗 Links
 
 - 🌍 Visit the site: [https://techwithz.com](https://techwithz.com)
+- 💻 Pentest Playbook: [https://docs.techwithz.com/pentest-playbook](https://docs.techwithz.com/pentest-playbook)
+- 🛡️ Defense Playbook: [https://docs.techwithz.com/defense-playbook](https://docs.techwithz.com/defense-playbook)
+- 🌐 Web Exploitation Playbook: [https://docs.techwithz.com/web-exploitation-playbook](https://docs.techwithz.com/web-exploitation-playbook)
 
 ---
 
