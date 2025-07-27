@@ -1,43 +1,59 @@
-# Chirpy Starter
+# 🌐 Tech With Z
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Welcome to **Tech With Z** — a personal knowledge base and learning hub focused on cybersecurity, blue teaming, red teaming, and everything in between. This site documents my journey as an IT professional and cybersecurity enthusiast, sharing what I learn through practical guides, cheat sheets, and playbooks.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+---
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## 📚 What You'll Find
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+### 🛡️ Defense Playbook
+A growing collection of blue team content:
+- SOC Fundamentals
+- Windows Event Log Analysis
+- Incident Response Procedures
+- Phishing & Email Forensics
+- Registry & Memory Forensics
+- Threat Hunting Techniques
+- PowerShell for Blue Teamers
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+### 💻 Pentest Playbook
+Red team-focused notes and walkthroughs:
+- Recon & Enumeration
+- Exploitation Techniques
+- Web Application Attacks
+- Active Directory Pentesting
+- Post-Exploitation Tips
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+### 🌐 Web Exploitation Playbook
+Focused solely on web application security:
+- XSS, SQLi, IDOR, SSRF, and more
+- Bug bounty field notes
 
-## Usage
+---
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## 👤 About Me
 
-## Contributing
+I'm an IT professional with 5+ years of experience in system administration, networking, and cybersecurity. I’m passionate about sharing what I learn with others, whether it's red teaming, blue teaming, or exploring the deep corners of web app security.
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+Certifications I've earned along the way include:
+- CompTIA A+, Network+, Security+, CySA+
+- Cisco CCNA
+- Microsoft Azure Fundamentals
+- Microsoft 365 Messaging Administrator Associate
+- TCM Security PJPT & PNPT
 
-## License
+---
 
-This work is published under [MIT][mit] License.
+## 📄 License
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🔗 Links
+
+- 🌍 Visit the site: [https://techwithz.com](https://techwithz.com)
+
+---
+
+Thanks for checking it out! 🙌
