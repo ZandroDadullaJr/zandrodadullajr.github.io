@@ -7,7 +7,7 @@ Welcome to **Tech With Z** — a personal knowledge base and learning hub focuse
 ## 📚 What You'll Find
 
 ### 💻 Pentest Playbook
-Red team-focused notes and walkthroughs:
+Red team-focused notes and cheat sheets:
 - Recon & Enumeration
 - Exploitation Techniques
 - Web Application Attacks
