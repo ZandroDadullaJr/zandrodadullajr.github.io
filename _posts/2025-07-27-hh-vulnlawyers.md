@@ -1,8 +1,8 @@
 ---
 title: "VulnLawyers Writeup - Penetration Test Report"
 #description: Web Application Penetration Test Report for VulnLawyers CTF
-date: 2025-07-27 18::30 -0500
-last_modified_at: 2025-07-27 18::30 -0500
+date: 2025-07-27 18:30 -0500
+last_modified_at: 2025-07-27 18:30 -0500
 categories: [Writeups, HackingHub]
 tags: [hackinghub,ctf,medium,pentestreport]
 pin: false
