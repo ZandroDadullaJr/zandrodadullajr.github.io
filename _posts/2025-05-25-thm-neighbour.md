@@ -1,5 +1,5 @@
 ---
-title: "Neighbour Walkthrough"
+title: "TryHackMe - Neighbour Walkthrough"
 #description: TryHackMe: Neighbour writeup.
 date: 2025-05-25 00:00:00 +0800
 categories: [Writeups, TryHackMe]
@@ -8,13 +8,12 @@ image:
   path: https://tryhackme-images.s3.amazonaws.com/room-icons/5e9c5d0148cf664325c8a075-1737130517336
   alt: Neighbour room logo
 ---
-## Introduction
 
 Room: [Neighbour](https://tryhackme.com/room/neighbour)<br>
 Author: [cmnatic](https://tryhackme.com/p/cmnatic)<br>
 Difficulty: <span style="color: #03b303"> **Easy** </span>
 
-In this challenge we will be exploiting the **IDOR** or the **Insecure Direct Object Reference** vulnerability. IDOR allows the attacker to bypass authorization mechanisms to access information/resources directly by manipulating the value of a parameter used to point to that resource/object.
+In this challenge we will be exploiting **IDOR** or the **Insecure Direct Object Reference** vulnerability. IDOR allows the attacker to bypass authorization mechanisms to access information/resources directly by manipulating the value of a parameter used to point to that resource/object.
 
 ## Information Gathering / Initial Access
 

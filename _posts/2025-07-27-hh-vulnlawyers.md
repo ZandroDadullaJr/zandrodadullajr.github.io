@@ -1,8 +1,8 @@
 ---
-title: "VulnLawyers Writeup - Penetration Test Report"
+title: "HackingHub - VulnLawyers Writeup - Penetration Test Report"
 #description: Web Application Penetration Test Report for VulnLawyers CTF
 date: 2025-07-27 18:30 -0500
-last_modified_at: 2025-07-27 18:30 -0500
+last_modified_at: 2025-08-04 18:30 -0500
 categories: [Writeups, HackingHub]
 tags: [hackinghub,ctf,medium,pentestreport]
 pin: false
@@ -10,7 +10,7 @@ image:
   path: "/assets/ctf/vulnlawyers/img/vulnlawyers-home.jpeg"
   #alt: VulnLawyers Home Page
 ---
-## VulnLawyers
+
 VulnLawyers is a Capture-the-Flag (CTF) challenge hosted on the HackingHub platform. It simulates a realistic web application environment, inviting participants to identify and exploit common security flaws in authentication, data exposure, and access control.
 
 CTF Link: [https://app.hackinghub.io/hubs/vuln-lawyers](https://app.hackinghub.io/hubs/vuln-lawyers)<br>
