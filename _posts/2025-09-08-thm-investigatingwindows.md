@@ -9,7 +9,7 @@ image:
   alt: Photo by <a href="https://unsplash.com/@tinkerman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Immo Wegmann</a> on <a href="https://unsplash.com/photos/a-person-holding-a-pencil-and-a-broken-laptop-OIUpXdhfJ1w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       
 ---
-Room: [Neighbour](https://tryhackme.com/room/investigatingwindows)<br>
+Room: [Investigating Windows](https://tryhackme.com/room/investigatingwindows)<br>
 Author: [tryhackme](https://tryhackme.com/p/tryhackme), [umairalizafar](https://tryhackme.com/p/umairalizafar), [Aashir.Masood](https://tryhackme.com/p/Aashir.Masood)<br>
 Difficulty: <span style="color: #03b303"> **Easy** </span>
 
