@@ -1,12 +1,13 @@
 ---
 title: "TryHackMe - Investigating Windows Walkthrough"
 date: 2025-09-09 00:00:00 +0800
+last_modified_at: 2025-09-09 00:00:00 +0800
 categories: [Writeups, TryHackMe]
 tags: [tryhackme,blueteam,easy,ctf,dfir]
 pin: false
 image:
   path: /assets/img/thm-investigating-windows/immo-wegmann-OIUpXdhfJ1w-unsplash.jpg
-  alt: Photo by <a href="https://unsplash.com/@tinkerman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Immo Wegmann</a> on <a href="https://unsplash.com/photos/a-person-holding-a-pencil-and-a-broken-laptop-OIUpXdhfJ1w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  alt: Photo by Immo Wegmann on Unsplash
       
 ---
 Room: [Investigating Windows](https://tryhackme.com/room/investigatingwindows)<br>
