@@ -7,7 +7,7 @@ categories: [Writeups, TryHackMe]
 tags: [TryHackMe,CTF,UltraTech,Penetration Testing,Web App Pentesting,Command Injection,Directory Enumeration,Docker,Privilege Escalation,GTFOBins,Linux,Ffuf]
 pin: false
 image:
-  path: assets\writeups\thm\thm-ultratech\ultratech-banner.png
+  path: assets/writeups/thm/thm-ultratech/ultratech-banner.png
   #alt: UltraTech room banner
 ---
 

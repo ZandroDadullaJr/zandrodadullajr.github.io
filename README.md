@@ -36,7 +36,7 @@ Focused solely on web application security:
 I'm an IT professional with 5+ years of experience in system administration, networking, and cybersecurity. I’m passionate about sharing what I learn with others, whether it's red teaming, blue teaming, or exploring the deep corners of web app security.
 
 Certifications I've earned along the way include:
-- CompTIA A+, Network+, Security+, CySA+
+- CompTIA A+, Network+, Security+, CySA+, Pentest+
 - Cisco CCNA
 - Microsoft Azure Fundamentals
 - Microsoft 365 Messaging Administrator Associate
