@@ -3,7 +3,7 @@ title: "TryHackMe - Investigating Windows Walkthrough"
 date: 2025-09-09 00:00:00 +0800
 last_modified_at: 2025-09-09 00:00:00 +0800
 categories: [Writeups, TryHackMe]
-tags: [tryhackme,blueteam,easy,ctf,dfir]
+tags: [TryHackMe,Blue Team,Easy,CTF,DFIR,Windows]
 pin: false
 image:
   path: /assets/img/thm-investigating-windows/immo-wegmann-OIUpXdhfJ1w-unsplash.jpg

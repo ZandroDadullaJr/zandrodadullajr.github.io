@@ -2,8 +2,9 @@
 title: "TryHackMe - Neighbour Walkthrough"
 #description: TryHackMe: Neighbour writeup.
 date: 2025-05-25 00:00:00 +0800
+last_modified_at: 2025-05-25 00:00:00 +0800
 categories: [Writeups, TryHackMe]
-tags: [tryhackme,idor,easy,ctf,]
+tags: [TryHackMe,IDOR,Easy,CTF,Web App Pentesting]
 image:
   path: https://tryhackme-images.s3.amazonaws.com/room-icons/5e9c5d0148cf664325c8a075-1737130517336
   alt: Neighbour room logo

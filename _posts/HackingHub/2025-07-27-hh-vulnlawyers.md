@@ -4,7 +4,7 @@ title: "HackingHub - VulnLawyers Writeup - Penetration Test Report"
 date: 2025-07-27 18:30 -0500
 last_modified_at: 2025-08-04 18:30 -0500
 categories: [Writeups, HackingHub]
-tags: [hackinghub,ctf,medium,pentestreport]
+tags: [HackingHub,CTF,Medium,Pentest Report,Web App Pentesting]
 pin: false
 image:
   path: "/assets/ctf/vulnlawyers/img/vulnlawyers-home.jpeg"

@@ -61,6 +61,10 @@ body {
 	opacity: .6
 }
 
+.access>section:not(:first-child){
+display: none !important;
+}
+
 header .post-desc,
 #toc-bar .label,
 #search-results a,

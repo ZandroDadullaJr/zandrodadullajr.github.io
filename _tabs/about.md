@@ -25,12 +25,13 @@ To support my continuous learning and professional growth, I’ve earned several
 | ![Network+](/assets/img/about/network-plus.png){: width="150" height="150" .w-50 .normal}   | [CompTIA Network+](https://www.credly.com/badges/08f0493b-0b6b-4c01-bea0-d360ec9257f1/public_url){:target="_blank"}                                           |
 | ![Security+](/assets/img/about/security-plus.png){: width="150" height="150" .w-50 .normal} | [CompTIA Security+](https://www.credly.com/badges/ae6bff94-a1e4-4303-a7f5-b3fd8dba7f86/public_url){:target="_blank"}                                          |
 | ![CySA+](/assets/img/about/cysa-plus.png){: width="150" height="150" .w-50 .normal}         | [CompTIA CySA+](https://www.credly.com/badges/fec350ba-0a80-40a1-82af-52a5794b991d/public_url){:target="_blank"}                                              |
+| ![Pentest+](/assets/img/about/pentest-plus.png){: width="150" height="150" .w-50 .normal}   | [CompTIA Pentest+](https://www.credly.com/badges/557b091d-904c-4323-bff8-0fd427d91023/public_url){:target="_blank"}                                           |
 | ![CCNA](/assets/img/about/ccna.png){: width="150" height="150" .w-50 .normal}               | [Cisco Certified Network Associate (CCNA)](https://www.credly.com/badges/221df830-5a34-4952-a493-22d8f7c9892c/public_url){:target="_blank"}                   |
 | ![AZ-900](/assets/img/about/az-900.png){: width="150" height="150" .w-50 .normal}           | [Microsoft Azure Fundamentals](https://www.credly.com/badges/ba6a901c-ed46-490c-8c51-3204272149c8/public_url){:target="_blank"}                               |
 
 
 
-## Contact Info
+## Connect with me
 
 | Platform | Link                                                                                          |
 | -------- | --------------------------------------------------------------------------------------------- |

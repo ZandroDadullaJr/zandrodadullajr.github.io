@@ -1,8 +1,9 @@
 ---
 title: "TryHackMe - Anonymous Walkthrough"
 date: 2025-05-25 00:00:00 +0800
+last_modified_at: 2025-05-25 00:00:00 +0800
 categories: [Writeups, TryHackMe]
-tags: [tryhackme,medium,ctf,smb,ftp]
+tags: [TryHackMe,Medium,CTF,SMB,FTP,Penetration Testing,Privilege Escalation,GTFOBins,Linux]
 image:
   path: https://tryhackme-images.s3.amazonaws.com/room-icons/876a5185c429c9703e625cb48c39637b.png
   alt: Anonymous room logo
