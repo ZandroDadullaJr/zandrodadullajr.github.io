@@ -192,11 +192,11 @@ ssh r00t@10.201.72.139
 
 ## Privilege Escalation
 
-We then need to perform post-compromise enumeration to look for privilege escalation paths. We then found an interesting info after running the `id` command. The account `r00t` is a member of the `docker` group. This tells us that we are inside a docker container.
+We then need to perform post-compromise enumeration to look for privilege escalation paths. We then found an interesting info after running the `id` command. The account `r00t` is a member of the `docker` group. This might allow us to run Docker commands to elevate privileges.
 
 ![image.png](/assets/writeups/thm/thm-ultratech/post-exploit-enum.png)
 
-We then look for the privesc for docker in [GTFOBins](https://gtfobins.github.io/gtfobins/docker/) to escape from the container and gain root permission.
+We then look for the privesc for docker in [GTFOBins](https://gtfobins.github.io/gtfobins/docker/) to gain root permission.
 
 ```bash
 docker run -v /:/mnt --rm -it bash chroot /mnt sh
