@@ -17,17 +17,18 @@ To support my continuous learning and professional growth, I’ve earned several
 
 <div class="special_table"></div>
 
-|                                                                                             |                                                                                                                                                               |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![PNPT](/assets/img/about/pnpt.png){: width="150" height="150" .w-50 .normal}               | [TCM Security Practical Network Penetration Tester (PNPT)](https://certified.tcm-sec.com/5ed9d5b7-f4c9-49c2-90e5-2b94a61d7876#acc.ncRKTO7Q){:target="_blank"} |
-| ![PJPT](/assets/img/about/pjpt.png){: width="150" height="150" .w-50 .normal}               | [TCM Security Practical Junior Penetration Tester (PJPT)](https://certified.tcm-sec.com/1664366a-ed7c-4817-9182-e8a2d930dd03#acc.MbBKqvmG){:target="_blank"}  |
-| ![A+](/assets/img/about/a-plus.png){: width="150" height="150" .w-50 .normal}               | [CompTIA A+](https://www.credly.com/badges/f2e2c135-4ac0-43e5-9b15-64373ff58980/public_url){:target="_blank"}                                                 |
-| ![Network+](/assets/img/about/network-plus.png){: width="150" height="150" .w-50 .normal}   | [CompTIA Network+](https://www.credly.com/badges/08f0493b-0b6b-4c01-bea0-d360ec9257f1/public_url){:target="_blank"}                                           |
-| ![Security+](/assets/img/about/security-plus.png){: width="150" height="150" .w-50 .normal} | [CompTIA Security+](https://www.credly.com/badges/ae6bff94-a1e4-4303-a7f5-b3fd8dba7f86/public_url){:target="_blank"}                                          |
-| ![CySA+](/assets/img/about/cysa-plus.png){: width="150" height="150" .w-50 .normal}         | [CompTIA CySA+](https://www.credly.com/badges/fec350ba-0a80-40a1-82af-52a5794b991d/public_url){:target="_blank"}                                              |
-| ![Pentest+](/assets/img/about/pentest-plus.png){: width="150" height="150" .w-50 .normal}   | [CompTIA Pentest+](https://www.credly.com/badges/557b091d-904c-4323-bff8-0fd427d91023/public_url){:target="_blank"}                                           |
-| ![CCNA](/assets/img/about/ccna.png){: width="150" height="150" .w-50 .normal}               | [Cisco Certified Network Associate (CCNA)](https://www.credly.com/badges/221df830-5a34-4952-a493-22d8f7c9892c/public_url){:target="_blank"}                   |
-| ![AZ-900](/assets/img/about/az-900.png){: width="150" height="150" .w-50 .normal}           | [Microsoft Azure Fundamentals](https://www.credly.com/badges/ba6a901c-ed46-490c-8c51-3204272149c8/public_url){:target="_blank"}                               |
+|                                                                                             |                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![PNPT](/assets/img/about/pnpt.png){: width="150" height="150" .w-50 .normal}               | [Practical Network Penetration Tester (PNPT)](https://certified.tcm-sec.com/5ed9d5b7-f4c9-49c2-90e5-2b94a61d7876#acc.ncRKTO7Q){:target="_blank"} |
+| ![PJPT](/assets/img/about/pjpt.png){: width="150" height="150" .w-50 .normal}               | [Practical Junior Penetration Tester (PJPT)](https://certified.tcm-sec.com/1664366a-ed7c-4817-9182-e8a2d930dd03#acc.MbBKqvmG){:target="_blank"}  |
+| ![A+](/assets/img/about/a-plus.png){: width="150" height="150" .w-50 .normal}               | [CompTIA A+](https://www.credly.com/badges/f2e2c135-4ac0-43e5-9b15-64373ff58980/public_url){:target="_blank"}                                    |
+| ![Network+](/assets/img/about/network-plus.png){: width="150" height="150" .w-50 .normal}   | [CompTIA Network+](https://www.credly.com/badges/08f0493b-0b6b-4c01-bea0-d360ec9257f1/public_url){:target="_blank"}                              |
+| ![Security+](/assets/img/about/security-plus.png){: width="150" height="150" .w-50 .normal} | [CompTIA Security+](https://www.credly.com/badges/ae6bff94-a1e4-4303-a7f5-b3fd8dba7f86/public_url){:target="_blank"}                             |
+| ![CySA+](/assets/img/about/cysa-plus.png){: width="150" height="150" .w-50 .normal}         | [CompTIA CySA+](https://www.credly.com/badges/fec350ba-0a80-40a1-82af-52a5794b991d/public_url){:target="_blank"}                                 |
+| ![Pentest+](/assets/img/about/pentest-plus.png){: width="150" height="150" .w-50 .normal}   | [CompTIA Pentest+](https://www.credly.com/badges/557b091d-904c-4323-bff8-0fd427d91023/public_url){:target="_blank"}                              |
+| ![BTL1](/assets/writeups/btl1/btl1-logo.png){: width="150" height="150" .w-50 .normal}      | [Blue Team Level 1 (BTL1)](https://www.credly.com/badges/b3e0000b-783d-4674-af81-575afe392397/public_url){:target="_blank"}                      |
+| ![CCNA](/assets/img/about/ccna.png){: width="150" height="150" .w-50 .normal}               | [Cisco Certified Network Associate (CCNA)](https://www.credly.com/badges/221df830-5a34-4952-a493-22d8f7c9892c/public_url){:target="_blank"}      |
+| ![AZ-900](/assets/img/about/az-900.png){: width="150" height="150" .w-50 .normal}           | [Microsoft Azure Fundamentals](https://www.credly.com/badges/ba6a901c-ed46-490c-8c51-3204272149c8/public_url){:target="_blank"}                  |
 
 
 
