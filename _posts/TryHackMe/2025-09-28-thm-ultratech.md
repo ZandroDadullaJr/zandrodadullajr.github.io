@@ -8,7 +8,7 @@ tags: [TryHackMe,CTF,UltraTech,Penetration Testing,Web App Pentesting,Command In
 pin: false
 image:
   path: assets/writeups/thm/thm-ultratech/ultratech-banner.png
-  #alt: UltraTech room banner
+  alt: Background photo by Lorenzo Herrera on Unsplash
 ---
 
 Room: [UltraTech](https://tryhackme.com/room/ultratech1)<br>

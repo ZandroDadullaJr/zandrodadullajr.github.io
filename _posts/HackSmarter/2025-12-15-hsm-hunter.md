@@ -7,7 +7,7 @@ tags: [HackSmarter, Username Enumeration,  Web App Pentesting, Caido, Easy]
 pin: false
 image:
   path: /assets/writeups/hsm/hsm-hunter/hsm-hunter-banner.png
-  #alt: Hack Smarter - Hunter Banner
+  alt: Background photo by Henry Chen on Unsplash
 ---
 
 Lab Link: [https://www.hacksmarter.org/courses/19723a54-6e4b-410e-b9e3-371f702e0f5c](https://www.hacksmarter.org/courses/19723a54-6e4b-410e-b9e3-371f702e0f5c)<br>
