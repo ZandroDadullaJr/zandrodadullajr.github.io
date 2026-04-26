@@ -5,7 +5,6 @@ order: 5
 ---
 
 
-![Profile](/assets/img/about/zandro-dadulla.jpg){: width="500" height="200" .w-50 .right}
 Hi, I'm **Zandro Dadulla Jr.**, I'm an IT professional with over 5 years of hands-on IT experience. My passion lies in cybersecurity, where I enjoy exploring both offensive and defensive techniques to better understand and improve digital security. As part of my journey, I’ve created several open knowledge projects such as Pentest Playbook, Defense Playbook, and Web Exploitation Playbook. These resources are my way of giving back to the cybersecurity community. They’re designed to help others whether they’re just starting out or sharpening their skills.
 <br><br>
 In my journey of learning Cybersecurity, I have acquired cybersecurity skills such as Penetration Testing, Active Directory Pentesting, Web application Pentesting, blue teaming, Incident response, phishing analysis, threat intelligence, and Open-Source Intelligence (OSINT). 

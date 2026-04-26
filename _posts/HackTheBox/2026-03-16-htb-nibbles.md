@@ -2,6 +2,7 @@
 title: "Hack The Box Nibbles Writeup"
 description: A walkthrough of the Hack The Box Nibbles machine. It covers host and web enumeration, vulnerability assessment, manual and automated exploitation using Metasploit, and Privilege Escalation via Sudo.
 date: 2026-03-16 00:00:00 +0800
+last_modified_at: 2026-03-16 00:00:00 +0800
 categories: [Writeups, HackTheBox]
 tags: [HackTheBox,HTB,CVE,File Upload,CMS,Metasploit,Fuzzing,HTTP,Sudo]
 pin: false
@@ -342,5 +343,5 @@ By completing this machine, we learned how to enumerate the ports and services o
 
 - [NVD - CVE-2015-6967](https://nvd.nist.gov/vuln/detail/CVE-2015-6967)
 - [Nibbleblog 4.0.3 - Arbitrary File Upload (Metasploit) - PHP remote Exploit](https://www.exploit-db.com/exploits/38489)
-- [Message from Rapid7 Chat](https://www.rapid7.com/db/modules/exploit/multi/http/nibbleblog_file_upload/)
+- [Nibbleblog File Upload Vulnerability](https://www.rapid7.com/db/modules/exploit/multi/http/nibbleblog_file_upload/)
 
