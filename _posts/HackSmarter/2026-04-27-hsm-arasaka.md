@@ -608,7 +608,7 @@ _Certipy - Authenticate via Certificate_
 At this point we already compromised the domain since the account THE_EMPEROR is a domain admin. As we can see on the output below, we were able to authenticate to the DC using **pass-the-hash** attack, and notice that it says "**Pwn3d!**" which means we completely owned the target host and we were also able to dump the **NTDS.dit** which contains the NTLM hashes for all domain users. We can then save these hashes and crack them offline and see how many we can crack which we can also add to the Pentest report.
 
 ```bash
-nxc smb dc01.hacksmarter.local -u the_emperor -p '[REDACTED]' --ntds
+nxc smb dc01.hacksmarter.local -u the_emperor -H '[REDACTED]' --ntds
 ```
 Breakdown of the command:
 - `nxc`: Runs the NetExec tool
