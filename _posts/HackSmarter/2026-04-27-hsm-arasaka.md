@@ -203,7 +203,7 @@ Another interesting info to note on is the description for the account **Soulkil
 _LDAPDomainDump - Domain Users_
 
 
-Another interesting finding is for the Domain Policy. In the screenshot below we see that the lockout threshold is set to zero (**0**), this will allows us to brute-force any account without getting locked out. There's also the insufficient password complexity issue where the minimum password length is set to five (**5**), this tells us that there may be passwords in this environment that can be cracked fairly easily.
+Another interesting finding is for the Domain Policy. In the screenshot below we see that the lockout threshold is set to zero (**0**), this allows us to brute-force any account without getting locked out. There's also the insufficient password complexity issue where the minimum password length is set to five (**5**), this tells us that there may be passwords in this environment that can be cracked fairly easily.
 
 ![LDAPDomainDump - Domain Policy](/assets/writeups/hsm/arasaka/arasaka-lockout-policy.png)
 _LDAPDomainDump - Domain Policy_
@@ -416,7 +416,7 @@ Breakdown of the command:
 ![Shadow Credentials - YORINOBU](/assets/writeups/hsm/arasaka/arasaka-shadow-credentials-yorinobu.png)
 _Shadow Credentials - YORINOBU_
 
-We successfully retrieved the NT hash for the yorinobu account. With this, we can perform pass-the-hash attack where we use NTLM hash to authenticate without ever knowing the plaintext password. We can test this using the `NetExec` tool with the `-H` flag.
+We successfully retrieved the NT hash for the YORINOBU account. With this, we can perform pass-the-hash attack where we use NTLM hash to authenticate without ever knowing the plaintext password. We can test this using the `NetExec` tool with the `-H` flag.
 
 ```bash
 nxc smb dc01.hacksmarter.local -u yorinobu -H '[REDACTED]'
@@ -474,10 +474,10 @@ Breakdown of the command:
 - `-vulnerable`: Tells certipy to show only vulnerable certificate templates
 - `-u soulkiller.svc@hacksmarter.local`: Specifies the username. Format: username@domain
 - `-p`: Specifies the password
-- `-stdout`: Tells certipy to display the out on the terminal
+- `-stdout`: Tells certipy to display the output on the terminal
 
 
-As we can see on the output below, We have CA Name **hacksmarter-DC01-CA** which we already saw from Nmap earlier. We also see Certificate template called **AI_Takeover** and at the bottom, we found one vulnerability which is **ESC1**. When then proceed to attempt to exploit this vulnerability.
+As we can see on the output below, We have CA Name **hacksmarter-DC01-CA** which we already saw from Nmap earlier. We also see Certificate template called **AI_Takeover** and at the bottom, we found one vulnerability which is **ESC1**. We then proceed to attempt to exploit this vulnerability.
 
 ```bash
 twz@ATKBX:~/ARASAKA$ certipy-ad find -vulnerable -u soulkiller.svc@hacksmarter.local -p '[REDACTED]' -stdout
@@ -597,11 +597,30 @@ certipy-ad auth -pfx the_emperor.pfx -dc-ip 10.1.162.242
 Breakdown of the command:
 - `certipy-ad`: Runs the certipy tool
 - `auth`: Tells certipy to autheticate using certificates
-- `-pfx`: The path to the certiificate file and private key (PFX/P12 format)
+- `-pfx`: The path to the certificate file and private key (PFX/P12 format)
 - `-dc-ip`: Specifies the IP address of the Domain Controller
 
 ![Certipy - Authenticate via Certificate](/assets/writeups/hsm/arasaka/arasaka-certipy-auth-cert.png)
 _Certipy - Authenticate via Certificate_
+
+### Domain Compromise and Dumping Credentials
+
+At this point we already compromised the domain since the account THE_EMPEROR is a domain admin. As we can see on the output below, we were able to authenticate to the DC using **pass-the-hash** attack, and notice that it says "**Pwn3d!**" which means we completely owned the target host and we were also able to dump the **NTDS.dit** which contains the NTLM hashes for all domain users. We can then save these hashes and crack them offline and see how many we can crack which we can also add to the Pentest report.
+
+```bash
+nxc smb dc01.hacksmarter.local -u the_emperor -p '[REDACTED]' --ntds
+```
+Breakdown of the command:
+- `nxc`: Runs the NetExec tool
+- `smb`: Set the protocol to SMB
+- `dc01.hacksmarter.local`: The target host
+- `-u the_emperor`: The username
+- `-H`: Specifies the NTLM hash
+- `--ntds`: Dump the NTDS.dit from the target DC
+
+![NetExec - Dumping NTDS](/assets/writeups/hsm/arasaka/arasaka-ntds-dump.png)
+_NetExec - Dumping NTDS_
+
 
 ### Connecting to the Domain Controller
 
