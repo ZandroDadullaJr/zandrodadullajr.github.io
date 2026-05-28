@@ -4,7 +4,7 @@ description: A walkthrough of the Hack Smarter Challenge Lab - Arasaka. It cover
 date: 2026-04-27 00:00:00 +0800
 last_modified_at: 2026-04-27 00:00:00 +0800
 categories: [Writeups, HackSmarter]
-tags: [HackSmarter,Easy,Windows,Active Directory,DACL,ADCS,LDAPDomainDump,BloodHound,NXC,Certipy,Hashcat,Kerberoast,Shadow Credentials,ESC1]
+tags: [HackSmarter,Easy,Windows,Active Directory,DACL,GenericAll,GenericWrite,Hashcat,ADCS,LDAPDomainDump,BloodHound,NXC,Certipy,Hashcat,Kerberoast,Shadow Credentials,ESC1]
 image:
   path: /assets/writeups/hsm/arasaka/hsm-arasaka-banner.png
   alt: Background Photo taken from Cyberpunk Wiki
@@ -194,7 +194,7 @@ Breakdown of the command:
 ![LDAPDomainDump Result](/assets/writeups/hsm/arasaka/arasaka-ldapdomaindump.png)
 _LDAPDomainDump - Domain Dump Result_
 
-We already checked the Domain Computers, Domain Trusts, and Domain Groups but there are two results that are interesting, these are **Domain Users** and **Domain Policy**. As we can see on the screenshot below, we have a list of users along with other useful information. Here we have two domain users, **Saburo Arasaka** and **Administrator**. 
+We already checked the Domain Computers, Domain Trusts, and Domain Groups but there are two results that are interesting, these are **Domain Users** and **Domain Policy**. As we can see on the screenshot below, we have a list of users along with other useful information. Here we have two domain admin users, **Saburo Arasaka** and **Administrator**. 
 
 
 Another interesting info to note on is the description for the account **Soulkiller.svc** which is "*Certificate management for soulkiller AI*". This tells us that this user can be used to to interact with the **AD CS**. So if we were to compromise this account, we can potentially use this to enumerate and exploit **AD CS** vulnerabilities.
