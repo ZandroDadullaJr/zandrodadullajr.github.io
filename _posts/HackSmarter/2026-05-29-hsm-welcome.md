@@ -1,8 +1,8 @@
 ---
 title: "Welcome - Hack Smarter Writeup"
 description: A walkthrough of the Hack Smarter Challenge Lab - Welcome. It covers Host and Active Directory enumeration, DACL abuse, Password cracking, and AD CS enumeration and exploitation.
-date: 2026-04-27 00:00:00 +0800
-last_modified_at: 2026-04-27 00:00:00 +0800
+date: 2026-05-29 00:00:00 +0800
+last_modified_at: 2026-05-29 00:00:00 +0800
 categories: [Writeups, HackSmarter]
 tags: [HackSmarter,Easy,Windows,Active Directory,DACL,GenericAll,ForceChangePassword,Hashcat,ADCS,LDAPDomainDump,BloodHound,NXC,Certipy,JohnTheRipper,Kerberoasting,Shadow Credentials,ESC1]
 image:
