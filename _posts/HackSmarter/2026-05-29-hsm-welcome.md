@@ -739,7 +739,7 @@ Get-ChildItem -Path "C:\Users\" -Recurse -Filter root.txt -ErrorAction SilentlyC
 ```
 
 ![Root Flag](/assets/writeups/hsm/hsm-welcome/hsm-welcome_root-flag.png)
-_Root Flag_
+`_Root Flag_
 
 ## References
 
